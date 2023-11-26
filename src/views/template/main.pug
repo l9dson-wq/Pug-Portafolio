@@ -6,9 +6,9 @@ html(lang='en')
   head
     meta(charset='utf-8')
     title Andelson Lopez - #{title}
+    link( rel='stylesheet', href='/css/index.css')
   body
+    // This is how we include different parts of other views to this one
     include ../partials/navbar.pug
     block content
-    block foot
-      #footer 
-        p Made by Andelson Lopez
+    include ../partials/footer.pug

@@ -1,4 +1,23 @@
 extends template/main.pug
 
 block content
-  h1 something new
+  div.PrincipalDiv
+    span.floatingMessage < HOMEPAGE /> 
+
+  div.welcomePrompt
+    img(src="https://tenor.com/view/lain-gif-12268433980480729850.gif", alt="")
+    p Welcome! take a look around to my website.
+
+  div#principalContent
+    div.quotePrompt
+      p “You should name a variable using the same care with which you name a first-born child.”
+      span ― Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
+    div.namePhoto
+      span Hi, I'm Andelson!
+
+    p.aboutMe
+      span.specialText
+        | Getting new knowledge everyday it's the path
+        p I'm always emproving my programming skills. I'm a software developer based on Dominican Republic. 
+        | I like 
+        span.specialLove Pizza, Music, Drawing, and Linux

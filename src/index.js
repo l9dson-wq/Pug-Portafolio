@@ -7,30 +7,35 @@ app.set("view engine", "pug");
 app.set("views", path.join(__dirname, "/views/"));
 app.use(express.static(path.join(__dirname, "/public/"))); 
 
+// Homepage
 app.get("/", (req, res) => {
   return res.render('homepage', {
     title: "Homepage",
   });
 });
 
+//ABOUT
 app.get("/About", (req, res) => {
   return res.render("about", {
     title: "About me",
   });
 });
 
+//Technologies
 app.get("/Technologies", (req, res) => {
   return res.render("Technologies", {
     title: "Technologies",
   })
 });
 
+// Projects
 app.get("/Projects", (req, res) => {
   return res.render("Projects", {
     title: "Projects",
   });
 });
 
+// Blogs
 app.get("/Blog", (req, res) => {
   return res.render("Blog", {
     title: "Blog",

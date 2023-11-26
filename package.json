@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./src/index.js"
+    "start": "nodemon ./src/index.js",
+    "dist": "mkdir -p dist && cp -R node_modules src src/index.js dist"
   },
   "keywords": [],
   "author": "",
