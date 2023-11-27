@@ -1,0 +1,56 @@
+//-Andelson Lopez
+//-About me :)
+extends template/main.pug
+
+block content
+  link( rel="stylesheet", href="css/about.css")
+  div#bigFatherDiv
+    div#principalContentAbout
+      span.aboutMeTitle About Me
+      br
+      br
+
+      p.
+        Hey, I'm Andelson! I'm a software developer growing in Santo Domingo, Dominican Republic. Welcome to my webiste where you'll find things related to my projects, tutorials, art, and anything else I want to show to the others.
+      br
+      p.
+        You can contact me by email at #[a.emailAdress andelsonjobs@gmail.com] to say hi! I always appreciate meeting new people.
+
+      br
+      div.aboutMeContent
+        div.Favorites
+          span.contentTitle Favorites
+          br
+          br
+          ul
+            li #[span.subTitle Animals] - Cats and Dogs
+            li #[span.subTitle Operating system] - Linux 
+            li #[span.subTitle Anime] - Monster
+            li #[span.subTitle Movie] - The perfume 
+        br
+        div.Tools
+          span.contentTitle Tools
+          br
+          br
+          ul 
+            li #[span.subTitle visual studio] - ASP .NET IDE
+            li #[span.subTitle Neovim] - Text editor
+            li #[span.subTitle Visual Studio Code] - Text editor
+            li #[span.subTitle Jetbrain Rider] - ASP .NET IDE
+            li #[span.subTitle Alacritty] - Terminal emulator
+        br
+        div.Songs
+          span.contentTitle Songs
+          br
+          br
+          ul 
+            li #[a(href="https://www.youtube.com/watch?v=7YvAYIJSSZY&list=RD7YvAYIJSSZY&start_radio=1") Rockwell - Somebody's Watching Me]
+            li #[a(href="https://www.youtube.com/watch?v=ZHwVBirqD2s&list=RD7YvAYIJSSZY&index=7") Elton John - I'm Still Standing]
+            li #[a(href="https://www.youtube.com/watch?v=aGCdLKXNF3w&list=RD7YvAYIJSSZY&index=25") Tears For Fears - Everybody Wants To Rule The World]
+    
+    div#sidebarContent
+      div 
+        img(src="images/pfp.jpeg")
+
+
+

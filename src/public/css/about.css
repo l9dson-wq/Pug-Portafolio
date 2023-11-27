@@ -1,0 +1,66 @@
+#bigFatherDiv{
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  color: #252525;
+}
+
+#principalContentAbout{
+  width: 500px;
+  margin: auto;
+}
+
+#sidebarContent{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 2em;
+}
+
+#sidebarContent img{
+  width: 100%;
+  background-color: white;
+  padding: 5%;
+  border-radius: 5px;
+}
+
+.aboutMeTitle{
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.emailAdress {
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.contentTitle{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+div ul li{
+  font-size: 16px;
+  font-weight: normal;
+
+  margin-bottom: 5px;
+}
+
+div ul{
+  list-style: none;
+}
+
+.subTitle{
+  font-weight: bold;
+}
+
+li::before {
+  content: "\2022"; /* Utiliza un carácter específico para representar el punto (puedes ajustar esto según tus necesidades) */
+  color: blueviolet; /* Cambia el color del punto */
+  display: inline-block;
+  width: 1em; /* Ajusta el espacio entre el punto y el texto si es necesario */
+  margin-right: 0.5em; /* Ajusta el espacio entre el punto y el texto si es necesario */
+}

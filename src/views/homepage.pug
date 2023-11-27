@@ -1,8 +1,9 @@
 extends template/main.pug
 
 block content
-  div.PrincipalDiv
-    span.floatingMessage < HOMEPAGE /> 
+
+  div.principalWelcomePrompt
+    span Hey, I'm Andelson!
 
   div.welcomePrompt
     img(src="https://tenor.com/view/lain-gif-12268433980480729850.gif", alt="")
@@ -12,26 +13,19 @@ block content
     div.quotePrompt
       p “You should name a variable using the same care with which you name a first-born child.”
       span ― Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
-    div.namePhoto
-      span Hi, I'm Andelson!
+    //- div.namePhoto
+    //-   span Hi, I'm Andelson!
 
-    p.aboutMe
-      span.specialText
-        | Getting new knowledge everyday it's the path
-        p I'm always emproving my programming skills. I'm a software developer based on Dominican Republic. 
-        | I like 
-        span.specialLove Pizza, Music, Drawing, and Linux
+    p.aboutMe #[span.specialText Getting new knowledge everyday it's the path] #[p I'm always emproving my programming skills. I'm a software developer based on Dominican Republic. I like] #[span.specialLove Pizza, Music, Drawing, and Linux]
 
     div.socialNetworks
       h3.socialNetworksTitle Links
       div.socialNetworkLink
         label Github 
-        a(href="https://github.com/l9dson-wq")  > @l9dson-wq
+        a(href="https://github.com/l9dson-wq")  @l9dson-wq
       div.socialNetworkLink
         label Linkedin 
-        a(href="https://www.linkedin.com/in/andelson-lopez-ysabel-a7ba3b211/?originalSubdomain=do")  > My Linkedin
+        a(href="https://www.linkedin.com/in/andelson-lopez-ysabel-a7ba3b211/?originalSubdomain=do")  My Linkedin
       div.socialNetworkLink
         label Youtube 
-        a(href="https://www.youtube.com/@nicolinux3819") > @nicolinux3819
- 
-  button(onclick="volverArriba()")#volver-arriba Volver arriba
+        a(href="https://www.youtube.com/@nicolinux3819") @nicolinux3819

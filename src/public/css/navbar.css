@@ -1,10 +1,10 @@
 .navbar{
-  max-width: 700px;
+  max-width: 600px;
   display: flex;
   justify-content: center;
   align-items: start;
   margin: auto;
-  padding: 1%;
+  padding: 2%;
   flex-direction: column;
 }
 
@@ -37,10 +37,7 @@
 }
 
 .navlinks:hover{
-  text-decoration: underline;
   cursor: pointer;
   color: black;
   font-weight: bold;
-  text-decoration-thickness: 0.2em;
-  text-underline-offset: 10px;
 }

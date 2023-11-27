@@ -1,5 +1,5 @@
-// Andelson Lopez
-// Main template
+//- Andelson Lopez
+//- Main template
 
 doctype
 html(lang='en')
@@ -8,8 +8,14 @@ html(lang='en')
     title Andelson Lopez - #{title}
     link( rel='stylesheet', href='/css/index.css')
   body
-    // This is how we include different parts of other views to this one
+    //- This is how we include different parts of other views to this one
     include ../partials/navbar.pug
+
     block content
+
     include ../partials/footer.pug
+
+    button(onclick="volverArriba()")#volver-arriba Volver arriba
+
     script(src="/js/index.js")
+    script(src="/js/getUrl.js")

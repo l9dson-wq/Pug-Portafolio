@@ -61,11 +61,12 @@ footer span{
   align-items: center;
   flex-direction: column;
   font-size: 1.1em;
-  margin-bottom: 5%;
+  margin: auto;
+  /* margin-bottom: 5%; */
 }
 
 .welcomePrompt p{
-  margin-top: 2%;
+  margin-bottom: 2%;
   color: #3c3c2c;
   font-weight: 400;
 }
@@ -111,14 +112,13 @@ footer span{
 .floatingMessage{
   font-weight: 300;
   font-size: 1.5em;
-  margin-bottom: 1.5em;
 }
 
 .quotePrompt{
   background-color: #EBEBEB;
   border: 1px solid gray;
   padding: 5%;
-  margin-bottom: 15%;
+  margin-bottom: 6%;
   display: flex;
   flex-direction: column;
 }
@@ -137,6 +137,10 @@ footer span{
 
 .socialNetworkLink{
   margin: 10px;
+}
+
+.socialNetworkLink a{
+  color: blue;
 }
 
 .socialNetworkLink label{
@@ -168,3 +172,15 @@ footer span{
   border-radius: 5px;
 }
 
+.principalWelcomePrompt{
+  margin: auto;
+  width: 500px;
+  /* border: 1px solid red; */
+  margin-bottom: 2%;
+}
+
+.principalWelcomePrompt span{
+  font-size: 35px;
+  color: #252525;
+  font-weight: 800;
+}
