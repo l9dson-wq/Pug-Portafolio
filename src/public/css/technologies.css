@@ -1,0 +1,52 @@
+#bigFatherDiv{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color: #252525;
+}  
+
+#principalContentAbout{
+    width: 500px;
+    margin: auto;
+}
+
+.principalTitle{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.listOfTech{
+    /* border: 1px solid red; */
+}
+
+.technology{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.technology i{
+    font-size: 40px;
+}
+
+.technology span{
+    font-size: 18px;
+    margin-left: 5px;
+    width: 50%;
+}
+
+.iconText{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.techTitle{
+    font-weight: 600;
+    font-size: 20px;
+}
